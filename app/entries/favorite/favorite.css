@@ -1,0 +1,19 @@
+.favorite {
+  $iconColor: #c2a661;
+
+  svg {
+    fill: transparent;
+    stroke-width: 12px;
+    stroke: $iconColor;
+    height: 20px;
+    width: 20px;
+    overflow: visible;
+    padding: 1px;
+    cursor: pointer;
+    transition: fill .2s;
+
+    &.checked {
+      fill: $iconColor;
+    }
+  }
+}

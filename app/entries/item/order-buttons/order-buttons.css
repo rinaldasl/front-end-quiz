@@ -1,0 +1,22 @@
+.orderButtons {
+  $borderColor: #f0f0f0;
+
+  display: flex;
+  align-items: center;
+  height: 40px;
+  color: #c2a661;
+  flex-grow: 1;
+
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-grow: 1;
+    border-top: 1px solid $borderColor;
+
+    &:first-child {
+      border-right: 1px solid $borderColor;
+    }
+  }
+}

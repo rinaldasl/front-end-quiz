@@ -1,0 +1,22 @@
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 40px;
+  padding: 10px;
+  box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+  font-size: 15px;
+
+  img {
+    max-height: 40px;
+  }
+
+  .backLink {
+    box-sizing: border-box;
+    position: absolute;
+    left: 20px;
+  }
+}
